@@ -1,0 +1,40 @@
+{
+    "name": "zhiephie/lushi",
+    "description": "A library of static Eloquent models for data Administrative Subdivisions of Indonesia.",
+    "keywords": [
+        "lushi",
+        "eloquent",
+        "model",
+        "sushi",
+        "laravel",
+        "indonesia"
+    ],
+    "homepage": "https://github.com/zhiephie/lushi",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yudi Purwanto",
+            "email": "purwantoyudi42@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "calebporzio/sushi": "^2.1",
+        "illuminate/database": "^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.2",
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lushi\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
